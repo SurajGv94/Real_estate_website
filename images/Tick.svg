@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33" height="33" viewBox="0 0 33 33">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1467" data-name="Rectangle 1467" width="33" height="33" transform="translate(-0.433 -0.433)"/>
+    </clipPath>
+  </defs>
+  <g id="Tick" transform="translate(0.407 0.407)">
+    <g id="Group_8835" data-name="Group 8835" transform="translate(0.025 0.025)">
+      <g id="Artboard_16" clip-path="url(#clip-path)">
+        <g id="Group_9238">
+          <g id="Group_8788">
+            <circle id="Ellipse_180" cx="16.5" cy="16.5" r="16.5" transform="translate(-0.433 -0.433)" fill="#e88233"/>
+            <g id="tick-2" data-name="tick" transform="translate(8.617 10.759)">
+              <g id="Group_8787" transform="translate(0 0)">
+                <path id="Path_1880" d="M15.838.186a.974.974,0,0,0-1.072,0h0L5.117,9.834,1.258,6.189a.974.974,0,0,0-1.072,0,.974.974,0,0,0,0,1.072L4.474,11.55a.974.974,0,0,0,1.072,0h0L15.838,1.258c.429-.214.429-.643,0-1.072Z" transform="translate(-0.025 -0.025)" fill="#fff" stroke="#fff" stroke-width="0.5"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
