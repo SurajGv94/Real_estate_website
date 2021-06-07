@@ -1,0 +1,229 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none; 
+  box-sizing: border-box;
+} 
+
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.btn-dwnld {
+    
+    background-color:#f98123;
+    border: none;
+    color: white;
+    padding: 16px 24px;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+ul a:hover{
+    color: darkblue;
+    font-weight: bold;
+    border-bottom: 8px solid #f98123;
+    padding-bottom: 12px;
+    
+}
+ .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .carousel-indicators{
+  border-radius:5%;
+}
+
+.adv-banner-box{
+	width:380px;
+	height:420px;
+	/* background: rgba(226, 222, 222, 0.3); */
+    background: rgba(0, 0, 0, 0.5);
+	color:#FFF;
+	top:55%;
+	left:20%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+	padding:70px 30px;
+ 
+}
+
+
+.adv-banner-box hr{
+  border: white solid 1px;
+}
+
+.adv-banner-box button{
+  background-color:#f98123;
+  border: none;
+  color: white;
+  padding: 16px 100px;
+  margin-top: 18px;
+
+}
+
+.licence-num{
+  background: rgba(21,101,124,255);
+  height: 50px;
+  color: white;
+  
+}
+
+.about-proj {
+  height: 640px;
+  padding-top: 164px;
+}
+
+.feture ul li:before {
+  background-color:#f98123;
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 2px;
+  height: 10px;
+  width: 10px;
+}
+
+.feture{
+  background: rgb(240, 240, 240);
+}
+
+.amenities{
+
+  background:rgba(21,101,124,255);
+  color: white;
+  height: 653px;
+  /* padding-top: 150px; */
+}
+
+.amenities img{
+  height: 653px;
+}
+
+.price{
+  background:#eeeee4 ;
+}
+
+.cont table{
+   /* width:712px; */
+  height: 300px;
+  background: white;
+  margin: auto;
+  width: 80% !important; 
+}
+
+.cont table,tr,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+ 
+}
+.cont table td {
+  padding: 5px;
+  text-align:center;
+        
+}
+.cont td button{
+  background-color:#f98123;
+  border: none;
+  color: white;
+  width: 132px;
+  height: 40px;
+}
+
+.map{
+  height: 500px;
+  width: 100%;
+}
+
+.m-box{
+  height: 400px;
+    background:#eeeee4;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    padding-top: 90px;
+}
+
+.location{
+  background:rgba(21,101,124,255); 
+  color: white;
+  height: 500px;
+}
+
+.location-cont li {
+  list-style-image: url('./images/Tick.png'); 
+  /* margin-left: auto;
+  width: 50% !important; 
+   */
+}
+
+#Descriptiontab table tr:not(:first-child)  td{
+  font-weight: bold;
+}
+
+.appointment{
+  background-image: url(./images/img.png);
+	background-size:cover;
+  height: 500px;
+  -moz-box-shadow: inset 0px -720px 500px -500px rgba(21,101,124,255);
+    -webkit-box-shadow: inset 0px -720px 500px -500px rgba(21,101,124,255);
+    -o-box-shadow: inset 0px -720 500px -500px rgba(21,101,124,255);
+    box-shadow: inset 0px -720 500px -500px rgba(21,101,124,255);
+  
+}
+.appointment-txt{
+   padding-top: 267px; 
+  color: white;
+}
+
+.btn-app {
+    
+  background-color:#f98123;
+  border: none;
+  color: white;
+  padding: 16px 67px;
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.svg-style{
+  display: inline;top: 0; position: absolute; 
+}
+
+.foot{
+  font-size:smaller;
+}
+
+@media (max-width: 600px) { 
+  .adv-banner-box {
+      width: 970px;
+      margin-left: 20px;
+  }
+  .about-proj {
+    height: 429px;
+    padding-top: 31px;
+  }
+  .amenities{
+
+    background:rgba(21,101,124,255);
+    color: white;
+    height: 746px;
+  }
+  
+  .amenities img{
+    height: 425px;
+  }
+  
+}
